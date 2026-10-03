@@ -55,6 +55,8 @@ These counts describe **resource scope, not clinical validation**. The study eva
 - **Traceability**: 29/32 supplement suggestions traceable to the supplied option list — traceability, not clinical appropriateness
 - **Arbitration**: coordinator modified or rejected 47/132 specialist proposals (35.6%); all 196 final actions retained proposal provenance — documented process, not benefit
 - **No deliberation advantage demonstrated**: blind judging preferred deliberation in 14/33 comparisons, the no-peeking control in 17/33, two ties
+- **A preregistered positive-control gate failed**: the probe detected its target in 2/3 runs and therefore failed its 3/3 rule; the other two software checks passed
+- **The five-role coverage comparison** failed to establish its prespecified superiority criterion
 - **Resource cost**: one v1 round averaged ~8,916 tokens and 137 seconds (≈ RMB 0.01 at stated list prices)
 
 ### Status of this repository
@@ -122,6 +124,8 @@ v1 实例仅评估了架构的一个子集。本仓库描述中每项能力都�
 - **可追溯性**：32 条补剂建议中 29 条可追溯至所供选项清单——是可追溯性，非临床适当性
 - **仲裁**：协调器修改或否决 47/132 条专科提案（35.6%）；全部 196 条最终动作保留提案来源——是过程记录，非获益证明
 - **未证明协商优势**：盲评 33 次比较中协商 14 次、无偷看对照 17 次、2 次平局
+- **预登记正控制门未通过**：探针在 2/3 次运行中检出目标，未达 3/3 规则判失败；另两项软件检查通过
+- **五角色覆盖比较**未达到其预设优效标准
 - **资源成本**：v1 单轮平均约 8,916 token、137 秒（按牌价约 RMB 0.01）
 
 ### 仓库状态
