@@ -2,9 +2,10 @@
 
 # Virtual Longevity Clinic (VLC)
 
-**The Virtual Longevity Clinic: A Multi-Agent AI Framework for Selection Intelligence beyond Prediction Models**
+**The Virtual Longevity Clinic: A Versioned State-Map Framework and Software Testbed for Biomedical World Models**
 
-[![Status](https://img.shields.io/badge/status-preprint%20in%20submission-orange)]()
+[![Preprint](https://img.shields.io/badge/Preprint-Preprints.org-orange)](https://www.preprints.org/manuscript/202610.0279/v1)
+[![DOI](https://img.shields.io/badge/DOI-10.20944%2Fpreprints202610.0279.v1-blue)](https://doi.org/10.20944/preprints202610.0279.v1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A multi-agent software framework that makes the **choose–monitor–revise** loop of person-level intervention selection explicit, recorded, and auditable — selection intelligence beyond prediction models.
@@ -62,19 +63,27 @@ These counts describe **resource scope, not clinical validation**. The study eva
 ### Status of this repository
 
 - **v1 (current):** bilingual README and version statement. **No figures yet** — representative figures will be added with the preprint release.
-- **Preprint:** in submission. The DOI and citation entry will be added here upon posting.
+- **Preprint:** posted October 6, 2026 on Preprints.org — [manuscript 202610.0279/v1](https://www.preprints.org/manuscript/202610.0279/v1), DOI [10.20944/preprints202610.0279.v1](https://doi.org/10.20944/preprints202610.0279.v1).
 - **Later:** evaluation scripts, replay-arm tooling, and knowledge-map interfaces will be released as the paper's companion artifacts.
 
 ### Citation
 
-Formal citation (DOI, BibTeX) will be added when the preprint is posted. Until then, please refer to the work as:
-
-> Xiong, J. *The Virtual Longevity Clinic: A Multi-Agent AI Framework for Selection Intelligence beyond Prediction Models*. Preprint in submission, 2026.
+```bibtex
+@article{xiong2026vlc,
+  title={The Virtual Longevity Clinic: A Versioned State-Map Framework and
+         Software Testbed for Biomedical World Models},
+  author={Xiong, Jianghui},
+  journal={Preprints},
+  year={2026},
+  note={DOI: 10.20944/preprints202610.0279.v1}
+}
+```
 
 ### Links
 
 | Resource | Link |
 | --- | --- |
+| Preprint | https://www.preprints.org/manuscript/202610.0279/v1 |
 | SteeraMed platform | https://steeramed.com |
 | DeepoMe | https://www.deepome.com |
 
@@ -83,7 +92,7 @@ Formal citation (DOI, BibTeX) will be added when the preprint is posted. Until t
 - [SteeraMed-Selection-Intelligence](https://github.com/DeepoMe/SteeraMed-Selection-Intelligence) — the position paper: prediction is the means, selection is the end
 - [SteeraMed-RootMap](https://github.com/DeepoMe/SteeraMed-RootMap) — root-cause attribution framework (dependency map used by VLC's v1 workflow)
 - [SteeraMed-bench](https://github.com/DeepoMe/SteeraMed-bench) — 332 × 1,916 drug-module benchmark (companion knowledge asset)
-- [SteeraMed-MorbidMap](https://github.com/DeepoMe/SteeraMed-MorbidMap) — multi-morbidity pattern mining with LLMs
+- [SteeraMed-MorbiMap](https://github.com/DeepoMe/SteeraMed-MorbiMap) — multi-morbidity pattern mining with LLMs
 - [Good-Healthspan-Practice](https://github.com/DeepoMe/Good-Healthspan-Practice) — good-practice guide for N-of-1 evidence in longevity medicine
 
 ### License
@@ -131,19 +140,27 @@ v1 实例仅评估了架构的一个子集。本仓库描述中每项能力都�
 ### 仓库状态
 
 - **v1（当前）：** 中英文 README 与版本声明，**暂不附图**——代表性图件将随预印本发布补入。
-- **预印本：** 投稿中。上线后在此补充 DOI 与正式引用条目。
+- **预印本：** 已于 2026 年 10 月 6 日在 Preprints.org 上线——[manuscript 202610.0279/v1](https://www.preprints.org/manuscript/202610.0279/v1)，DOI [10.20944/preprints202610.0279.v1](https://doi.org/10.20944/preprints202610.0279.v1)。
 - **后续：** 评估脚本、回放臂工具与知识地图接口将作为论文配套产物逐步放出。
 
 ### 引用
 
-预印本上线后将补充正式引用（DOI、BibTeX）。此前请按以下方式指称：
-
-> Xiong, J. *The Virtual Longevity Clinic: A Multi-Agent AI Framework for Selection Intelligence beyond Prediction Models*. Preprint in submission, 2026.
+```bibtex
+@article{xiong2026vlc,
+  title={The Virtual Longevity Clinic: A Versioned State-Map Framework and
+         Software Testbed for Biomedical World Models},
+  author={Xiong, Jianghui},
+  journal={Preprints},
+  year={2026},
+  note={DOI: 10.20944/preprints202610.0279.v1}
+}
+```
 
 ### 链接
 
 | 资源 | 链接 |
 | --- | --- |
+| 预印本 | https://www.preprints.org/manuscript/202610.0279/v1 |
 | SteeraMed 平台 | https://steeramed.com |
 | DeepoMe | https://www.deepome.com |
 
@@ -152,7 +169,7 @@ v1 实例仅评估了架构的一个子集。本仓库描述中每项能力都�
 - [SteeraMed-Selection-Intelligence](https://github.com/DeepoMe/SteeraMed-Selection-Intelligence) — 立场论文：预测是手段，选择是目的
 - [SteeraMed-RootMap](https://github.com/DeepoMe/SteeraMed-RootMap) — 根因归因框架（VLC v1 工作流所用依赖图）
 - [SteeraMed-bench](https://github.com/DeepoMe/SteeraMed-bench) — 332 × 1,916 药物-模块基准（配套知识资产）
-- [SteeraMed-MorbidMap](https://github.com/DeepoMe/SteeraMed-MorbidMap) — 大模型多病共存模式挖掘
+- [SteeraMed-MorbiMap](https://github.com/DeepoMe/SteeraMed-MorbiMap) — 大模型多病共存模式挖掘
 - [Good-Healthspan-Practice](https://github.com/DeepoMe/Good-Healthspan-Practice) — 长寿医学 N-of-1 证据良好实践指南
 
 ### 许可
